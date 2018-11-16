@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57AFE754219E20A40024A541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFE753219E20A40024A541 /* AppDelegate.swift */; };
-		57AFE756219E20A40024A541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFE755219E20A40024A541 /* ViewController.swift */; };
-		57AFE759219E20A40024A541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AFE757219E20A40024A541 /* Main.storyboard */; };
-		57AFE75B219E20A50024A541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57AFE75A219E20A50024A541 /* Assets.xcassets */; };
-		57AFE75E219E20A50024A541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AFE75C219E20A50024A541 /* LaunchScreen.storyboard */; };
-		57AFE766219E20BD0024A541 /* GOTEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AFE765219E20BD0024A541 /* GOTEpisode.swift */; };
+		57D0D22A219F70EA00B5753A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D229219F70EA00B5753A /* AppDelegate.swift */; };
+		57D0D22C219F70EA00B5753A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D22B219F70EA00B5753A /* ViewController.swift */; };
+		57D0D22F219F70EA00B5753A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0D22D219F70EA00B5753A /* Main.storyboard */; };
+		57D0D231219F70EA00B5753A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D0D230219F70EA00B5753A /* Assets.xcassets */; };
+		57D0D234219F70EA00B5753A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0D232219F70EA00B5753A /* LaunchScreen.storyboard */; };
+		57D0D23C219F719C00B5753A /* GOTEpisdoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		57AFE750219E20A40024A541 /* GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		57AFE753219E20A40024A541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57AFE755219E20A40024A541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		57AFE758219E20A40024A541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		57AFE75A219E20A50024A541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		57AFE75D219E20A50024A541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		57AFE75F219E20A50024A541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57AFE765219E20BD0024A541 /* GOTEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOTEpisode.swift; sourceTree = "<group>"; };
+		57D0D226219F70EA00B5753A /* GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D0D229219F70EA00B5753A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57D0D22B219F70EA00B5753A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57D0D22E219F70EA00B5753A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57D0D230219F70EA00B5753A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57D0D233219F70EA00B5753A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57D0D235219F70EA00B5753A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOTEpisdoe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		57AFE74D219E20A40024A541 /* Frameworks */ = {
+		57D0D223219F70EA00B5753A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,78 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		57AFE747219E20A40024A541 = {
+		57D0D21D219F70EA00B5753A = {
 			isa = PBXGroup;
 			children = (
-				57AFE752219E20A40024A541 /* GameOfThrones */,
-				57AFE751219E20A40024A541 /* Products */,
+				57D0D228219F70EA00B5753A /* GameOfThrones */,
+				57D0D227219F70EA00B5753A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		57AFE751219E20A40024A541 /* Products */ = {
+		57D0D227219F70EA00B5753A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57AFE750219E20A40024A541 /* GameOfThrones.app */,
+				57D0D226219F70EA00B5753A /* GameOfThrones.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57AFE752219E20A40024A541 /* GameOfThrones */ = {
+		57D0D228219F70EA00B5753A /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
-				57AFE769219E20F70024A541 /* Models */,
-				57AFE76A219E20FF0024A541 /* Views */,
-				57AFE768219E20F00024A541 /* Controllers */,
-				57AFE767219E20DF0024A541 /* Supporting Files */,
-				57AFE75F219E20A50024A541 /* Info.plist */,
+				57D0D229219F70EA00B5753A /* AppDelegate.swift */,
+				57D0D22B219F70EA00B5753A /* ViewController.swift */,
+				57D0D22D219F70EA00B5753A /* Main.storyboard */,
+				57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */,
+				57D0D230219F70EA00B5753A /* Assets.xcassets */,
+				57D0D232219F70EA00B5753A /* LaunchScreen.storyboard */,
+				57D0D235219F70EA00B5753A /* Info.plist */,
 			);
 			path = GameOfThrones;
-			sourceTree = "<group>";
-		};
-		57AFE767219E20DF0024A541 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				57AFE753219E20A40024A541 /* AppDelegate.swift */,
-				57AFE75A219E20A50024A541 /* Assets.xcassets */,
-				57AFE75C219E20A50024A541 /* LaunchScreen.storyboard */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		57AFE768219E20F00024A541 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				57AFE755219E20A40024A541 /* ViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		57AFE769219E20F70024A541 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				57AFE765219E20BD0024A541 /* GOTEpisode.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		57AFE76A219E20FF0024A541 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				57AFE757219E20A40024A541 /* Main.storyboard */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57AFE74F219E20A40024A541 /* GameOfThrones */ = {
+		57D0D225219F70EA00B5753A /* GameOfThrones */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57AFE762219E20A50024A541 /* Build configuration list for PBXNativeTarget "GameOfThrones" */;
+			buildConfigurationList = 57D0D238219F70EA00B5753A /* Build configuration list for PBXNativeTarget "GameOfThrones" */;
 			buildPhases = (
-				57AFE74C219E20A40024A541 /* Sources */,
-				57AFE74D219E20A40024A541 /* Frameworks */,
-				57AFE74E219E20A40024A541 /* Resources */,
+				57D0D222219F70EA00B5753A /* Sources */,
+				57D0D223219F70EA00B5753A /* Frameworks */,
+				57D0D224219F70EA00B5753A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -116,25 +84,25 @@
 			);
 			name = GameOfThrones;
 			productName = GameOfThrones;
-			productReference = 57AFE750219E20A40024A541 /* GameOfThrones.app */;
+			productReference = 57D0D226219F70EA00B5753A /* GameOfThrones.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		57AFE748219E20A40024A541 /* Project object */ = {
+		57D0D21E219F70EA00B5753A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Alex Paul";
+				ORGANIZATIONNAME = Pursuit;
 				TargetAttributes = {
-					57AFE74F219E20A40024A541 = {
+					57D0D225219F70EA00B5753A = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 57AFE74B219E20A40024A541 /* Build configuration list for PBXProject "GameOfThrones" */;
+			buildConfigurationList = 57D0D221219F70EA00B5753A /* Build configuration list for PBXProject "GameOfThrones" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 57AFE747219E20A40024A541;
-			productRefGroup = 57AFE751219E20A40024A541 /* Products */;
+			mainGroup = 57D0D21D219F70EA00B5753A;
+			productRefGroup = 57D0D227219F70EA00B5753A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57AFE74F219E20A40024A541 /* GameOfThrones */,
+				57D0D225219F70EA00B5753A /* GameOfThrones */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		57AFE74E219E20A40024A541 /* Resources */ = {
+		57D0D224219F70EA00B5753A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57AFE75E219E20A50024A541 /* LaunchScreen.storyboard in Resources */,
-				57AFE75B219E20A50024A541 /* Assets.xcassets in Resources */,
-				57AFE759219E20A40024A541 /* Main.storyboard in Resources */,
+				57D0D234219F70EA00B5753A /* LaunchScreen.storyboard in Resources */,
+				57D0D231219F70EA00B5753A /* Assets.xcassets in Resources */,
+				57D0D22F219F70EA00B5753A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		57AFE74C219E20A40024A541 /* Sources */ = {
+		57D0D222219F70EA00B5753A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57AFE756219E20A40024A541 /* ViewController.swift in Sources */,
-				57AFE754219E20A40024A541 /* AppDelegate.swift in Sources */,
-				57AFE766219E20BD0024A541 /* GOTEpisode.swift in Sources */,
+				57D0D23C219F719C00B5753A /* GOTEpisdoe.swift in Sources */,
+				57D0D22C219F70EA00B5753A /* ViewController.swift in Sources */,
+				57D0D22A219F70EA00B5753A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		57AFE757219E20A40024A541 /* Main.storyboard */ = {
+		57D0D22D219F70EA00B5753A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				57AFE758219E20A40024A541 /* Base */,
+				57D0D22E219F70EA00B5753A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		57AFE75C219E20A50024A541 /* LaunchScreen.storyboard */ = {
+		57D0D232219F70EA00B5753A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				57AFE75D219E20A50024A541 /* Base */,
+				57D0D233219F70EA00B5753A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		57AFE760219E20A50024A541 /* Debug */ = {
+		57D0D236219F70EA00B5753A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		57AFE761219E20A50024A541 /* Release */ = {
+		57D0D237219F70EA00B5753A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,36 +282,34 @@
 			};
 			name = Release;
 		};
-		57AFE763219E20A50024A541 /* Debug */ = {
+		57D0D239219F70EA00B5753A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZEKMNK5YD3;
 				INFOPLIST_FILE = GameOfThrones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexcpaul.GameOfThrones;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pursuit.GameOfThrones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		57AFE764219E20A50024A541 /* Release */ = {
+		57D0D23A219F70EA00B5753A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZEKMNK5YD3;
 				INFOPLIST_FILE = GameOfThrones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexcpaul.GameOfThrones;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pursuit.GameOfThrones;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57AFE74B219E20A40024A541 /* Build configuration list for PBXProject "GameOfThrones" */ = {
+		57D0D221219F70EA00B5753A /* Build configuration list for PBXProject "GameOfThrones" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57AFE760219E20A50024A541 /* Debug */,
-				57AFE761219E20A50024A541 /* Release */,
+				57D0D236219F70EA00B5753A /* Debug */,
+				57D0D237219F70EA00B5753A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57AFE762219E20A50024A541 /* Build configuration list for PBXNativeTarget "GameOfThrones" */ = {
+		57D0D238219F70EA00B5753A /* Build configuration list for PBXNativeTarget "GameOfThrones" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57AFE763219E20A50024A541 /* Debug */,
-				57AFE764219E20A50024A541 /* Release */,
+				57D0D239219F70EA00B5753A /* Debug */,
+				57D0D23A219F70EA00B5753A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 57AFE748219E20A40024A541 /* Project object */;
+	rootObject = 57D0D21E219F70EA00B5753A /* Project object */;
 }

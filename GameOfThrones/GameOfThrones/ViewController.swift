@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  GameOfThrones
 //
-//  Created by Alex Paul on 11/15/18.
-//  Copyright © 2018 Alex Paul. All rights reserved.
+//  Created by Alex Paul on 11/16/18.
+//  Copyright © 2018 Pursuit. All rights reserved.
 //
 
 import UIKit
