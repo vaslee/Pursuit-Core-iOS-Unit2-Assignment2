@@ -29,18 +29,21 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setUpEpisode()
+    
     }
     
+    
+   
     private func setUpEpisode() {
         FABImage.image = UIImage(named: episode!.originalImageID)
         FABTitle.text = episode!.name
-        FABSeason.text = String(episode!.season)
-        FABEpisode.text = String(episode!.number)
-        FABRuntime.text = String(episode!.runtime)
-        FABAirdate.text = String(episode!.airdate)
+        FABSeason.text = "Season:" + " " + String(episode!.season)
+        FABEpisode.text = "Episode:" + " " + String(episode!.number)
+        FABRuntime.text = "Runtime:" + " " + String(episode!.runtime)
+        FABAirdate.text = "Airdate:" + " " + String(episode!.airdate)
         FABText.text = episode!.summary
+        
         
     }
     
