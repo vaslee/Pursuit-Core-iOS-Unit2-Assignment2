@@ -18,6 +18,9 @@ class GOTEpisode {
     var summary: String
     var mediumImageID: String
     var originalImageID: String
+    var seasonNumAndEpisodeNum: String {
+        return "S: " + String(season) + "E: " + String(number)
+    }
     init(airdate: String, id: Int, name: String, number: Int, season: Int, runtime: Int, summary: String, mediumImageID: String, originalImageID: String) {
         self.airdate = airdate
         self.id = id
@@ -98,4 +101,6 @@ class GOTEpisode {
         GOTEpisode(airdate: "2017-08-20", id: 1221414, name: "Beyond the Wall", number: 6, season: 7, runtime: 60, summary: "Jon's mission continues north of the wall, but the odds against his ragged band of misfits may be greater than he imagined.", mediumImageID: "312651", originalImageID: "312651"),
         GOTEpisode(airdate: "2017-08-27", id: 1221415, name: "The Dragon and the Wolf", number: 7, season: 7, runtime: 60, summary: "Cersei sits on the Iron Throne; Daenerys sails across the Narrow Sea; Jon Snow is King in the North, and winter is finally here.", mediumImageID: "314502", originalImageID: "314502")
     ]
+    
+    static var episodeBySeason: [[GOTEpisode]] = [GOTEpisode.allEpisodes.filter{$0.season == 1}, GOTEpisode.allEpisodes.filter{$0.season == 2}, GOTEpisode.allEpisodes.filter{$0.season == 3}, GOTEpisode.allEpisodes.filter{$0.season == 4}, GOTEpisode.allEpisodes.filter{$0.season == 5}, GOTEpisode.allEpisodes.filter{$0.season == 6}, GOTEpisode.allEpisodes.filter{$0.season == 7}]
 }
